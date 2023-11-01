@@ -21,11 +21,11 @@ const LoginPage = () => {
         }
     }
     return(
-        <div className='w-100 h-75 main-div d-flex justify-content-center align-itmes-center' dir='rtl'>
-            <div className='border rounded d-flex flex-column justify-content-start align-items-center p-4'>
-                <div className='w-50 h-auto'>
+        <header className='w-100 h-75 main-div d-flex justify-content-center align-itmes-center' dir='rtl'>
+            <main className='border rounded d-flex flex-column justify-content-start align-items-center p-4'>
+                <figure className='w-50 h-auto'>
                     <img className='w-100 h-100 pt-3' src='https://www.digikala.com/statics/img/svg/logo.svg'/>
-                </div>
+                </figure>
                 <h4 className='w-100 mt-4 d-flex login'>ورود | ثبت نام</h4>
                 <p className='w-100 mb-0 mt-4 d-flex'>سلام!</p>
                 <p className='w-100 mt-0 pt-2 d-flex'>لطفا شماره موبایل یا ایمیل خود را وارد کنید</p>
@@ -40,8 +40,8 @@ const LoginPage = () => {
                         <a href='https://digikala.com'>قوانین حریم خصوصی </a>
                         است
                     </p>
-            </div>
-        </div>
+            </main>
+        </header>
     )
 }
 
